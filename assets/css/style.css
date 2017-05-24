@@ -1,6 +1,13 @@
 html {
   height: 100%;
   box-sizing: border-box;
+  background-color: brown;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -11,12 +18,28 @@ body {
 .gray{
 	background: #cccccc;
 }
+#poopyPic{
+	padding: 10px;
+}
+#happyDance{
+	padding: 10px;
+}
 h1{
 	font-weight: bold;
+}
+#wrongText{
+	margin-top: 175px;
 }
 
 #question{
 	padding: 40px;
+	border: 20px;
+}
+#goodJob{
+	color: green;
+	padding: 40px;
+	padding-bottom: 115px;
+	border: 20px;
 }
 
 h2{
@@ -24,4 +47,30 @@ h2{
 }
 #questionText{
 	margin-top: 50px;
+}
+.btn-group{
+	margin-bottom: 15px;
+}
+#timer{
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+#time-left{
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/**
+ * Footer Styles
+ */
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: right;
 }
