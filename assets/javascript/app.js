@@ -65,7 +65,7 @@ function timeUp() {
 			correctAnswer: "125lbs"
 		},
 			question6 = {
-			question: "What's my ethncity?",
+			question: "What's my ethnicity?",
 			answer: ["Black", "White", "Asian"],
 			correctAnswer: "Black"
 		},
